@@ -2,6 +2,7 @@
 
 namespace AlanVdb\Renderer\Factory;
 
+use AlanVdb\Renderer\Definition\TwigFactoryInterface;
 use Twig\Loader\FilesystemLoader as TwigFilesystemLoader;
 use Twig\Environment as TwigEnvironment;
 
