@@ -1,0 +1,20 @@
+{
+    "name": "alanvdb/twig-factory",
+    "description": "Personal Twig factory",
+    "type": "library",
+    "require": {
+        "twig/twig": "^3.14"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AlanVdb\\Renderer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alanvdb",
+            "email": "alanvdb.coder@gmail.com"
+        }
+    ]
+}
