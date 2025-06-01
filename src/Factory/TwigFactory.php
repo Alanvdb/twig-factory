@@ -8,7 +8,7 @@ use Twig\Environment as TwigEnvironment;
 
 class TwigFactory implements TwigFactoryInterface
 {
-    public function createRenderer(string $templateDirectory, ?string $cacheDirectory = null) : TwigEnvironment
+    public function createRenderer(string $templateDirectory, string|null $cacheDirectory = null) : TwigEnvironment
     {
         $twigLoader = new TwigFilesystemLoader($templateDirectory);
         $options = [];
